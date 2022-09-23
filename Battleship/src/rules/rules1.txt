@@ -1,0 +1,17 @@
+Battleship is a guessing game that is played by two players on a squared board of dimensions that can be selected from seven to nine rows and columns consisting of grey-colored tiles. 
+There are numbers of ships located on the board. During the game each player's takes turns by clicking on a grey tile and it will be revealed whether she/he hit a ship or the water. 
+If the player hit the water, the grey tile turns blue. If the player hit a ship, the tile turns a specific color, depending upon the color of the ship that has been hit. 
+There are four types of ships: Carrier, battleship, submarine and destroyer corresponding to the color green, red, yellow and black respectively. When a player strikes a ship, 
+they receive a predetermined number of points: Carrier (10), battleship (25), submarine (35) and destroyer (40). A player receives twice the standard number of points if their 
+hit results in a ship sinking in others word when all the ships of the same type have been hit. The game ends when there are no more ships on the board that can be hit. 
+The player with the most points at the end of the game wins the game. Before you can launch the game The players have to select one of the two scoring options: one which 
+assigns the same points-per-hit to each player and one which provides a unique points-per-hit to each player to accommodate going first or second to start the game. 
+The adjustment that will be made is player two gets for every ship that she/he hits 5 extra points. The following option that must be selected is the ships placement method. 
+To start with you can place 15 ships randomly on your board and thereby you additionally have the option to choose the board dimension that has seven rows and columns as default values. 
+Secondarily the ships can be added on your board by a user-provided text file that has as first line a positive integer that specifies the dimension of the board. 
+After that, the file will list one ship type per line, and each line will start with the name of the ship, followed by the coordinates for the tiles corresponding 
+to the location of the ship. The name and coordinates are each separated from one another by a semicolon. A coordinate is specified by two numbers separated by a "*" with the first number 
+representing the row and the second number representing the column. For example, "2*3" represents the tile at row 2 and column 3 of the board. The file can only just allow a maximum of 18 
+unique ships coordinate that respect the board size. The game can't start without the selection of placement and scoring method. If the users select the method of placing the ships with 
+the user-provided text file and this file contains any error an error message will appear on screen and the game will shut down. 
+The button high scores shows the top 10 highest scores played in the game.
